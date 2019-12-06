@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--    <img alt="Vue logo" src="./assets/logo.png">
+<HelloWorld :msg="message"/>-->
+    <input type="text" v-model="message"/>
+    <button @click="msgAlert">Search</button>
   </div>
 </template>
 
@@ -12,6 +14,16 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data () {
+    return{
+      message : "Bangkok"
+  }
+  },
+  methods: {
+    msgAlert(){
+      alert(this.message)
+    }
   }
 }
 </script>
