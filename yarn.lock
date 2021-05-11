@@ -1966,6 +1966,10 @@ core-js-compat@^3.1.1, core-js-compat@^3.4.3:
     browserslist "^4.8.0"
     semver "^6.3.0"
 
+core-js@^2.6.11:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+
 core-js@^3.4.3:
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.7.tgz#57c35937da80fe494fbc3adcf9cf3dc00eb86b34"
@@ -3148,8 +3152,8 @@ hoopy@^0.1.4:
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -3867,6 +3871,13 @@ log-symbols@^2.2.0:
 loglevel@^1.6.4:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.6.tgz#0ee6300cc058db6b3551fa1c4bf73b83bb771312"
+
+longdo-map-vue@^1.0.1:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/longdo-map-vue/-/longdo-map-vue-1.0.7.tgz#cd9224d5897c33ae7136c88ca6f02fed14001ba8"
+  dependencies:
+    core-js "^2.6.11"
+    vue "^2.6.10"
 
 loose-envify@^1.0.0:
   version "1.4.0"
